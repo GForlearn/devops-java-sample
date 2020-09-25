@@ -17,6 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'javaspace'
         GITHUB_ACCOUNT = 'GForlearn'
         APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID = "sonarqube-token"
     }
 
     stages {
